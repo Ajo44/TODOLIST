@@ -1,14 +1,13 @@
 * {
   border: 0px;
   padding: 0px;
-  background: #ffffff;
 }
 .area {
   position: absolute;
   width: 516px;
   height: 123px;
   left: 170px;
-  top: 431px;
+  top: 175px;
 
   font-family: Roboto;
   font-style: normal;
@@ -20,45 +19,12 @@
 
   color: rgba(0, 0, 0, 0.55);
 }
-h1 {
-  position: absolute;
-  width: 101.04px;
-  height: 40px;
-  left: 374px;
-  top: 364px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 33.1429px;
-  line-height: 39px;
-
-  color: rgba(0, 0, 0, 0.85);
-}
-.textbox button {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 5px 16px;
-
-  position: absolute;
-  width: 387px;
-  height: 69px;
-  left: 216px;
-  top: 611px;
-
-  background: #597ef7;
-
-  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
-  border-radius: 2px;
-}
-.sign {
+.textbox h1 {
   position: absolute;
   width: 287px;
   height: 47px;
-  left: 316px;
-  top: 629px;
+  left: 390px;
+  top: 89px;
 
   font-family: Roboto;
   font-style: normal;
@@ -66,5 +32,54 @@ h1 {
   font-size: 26px;
   line-height: 30px;
 
-  color: #ffffff;
+  color: #0c0b0b;
+}
+
+.btn {
+  background-color: #597ef7;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  position: absolute;
+  width: 387px;
+  height: 69px;
+  left: 236px;
+  top: 311px;
+
+  /* drop-shadow / button-primary */
+
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 2px;
+}
+.animation {
+  position: absolute;
+  width: 380px;
+  height: 311px;
+  left: 871px;
+  top: 1px;
+}
+.png {
+  position: absolute;
+  width: 380px;
+  height: 411px;
+  left: 971px;
+  top: 131px;
+}
+.lamb {
+  position: absolute;
+  width: 174px;
+  height: 216px;
+  left: 771px;
+  top: -18px;
+}
+.btn-sign a {
+  color: azure;
+  background-color: none;
 }
